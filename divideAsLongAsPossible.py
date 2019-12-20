@@ -1,5 +1,5 @@
 n, d = eval(dir()[0])
-while n % d == 0:
+while n % d < 1:
     n /= d
 return n
 
